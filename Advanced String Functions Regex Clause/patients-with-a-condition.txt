@@ -1,0 +1,7 @@
+# patients-with-a-condition
+https://leetcode.com/problems/patients-with-a-condition/?envType=study-plan-v2&envId=top-sql-50
+
+SELECT *
+FROM Patients
+WHERE LOCATE('DIAB1', conditions) = 1
+    OR LOCATE(' DIAB1', conditions) !=0 ;
